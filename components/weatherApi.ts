@@ -1,6 +1,6 @@
 // Weather_App/components/weatherApi.ts
 
-const API_KEY = '1d442ecd9260100617676138dac420ee';
+const API_KEY = '';
 
 export async function fetchCurrentWeather(city: string) {
   const response = await fetch(
